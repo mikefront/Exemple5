@@ -47,5 +47,32 @@ public class Main {
                 System.out.print(", ");
             }
         }
+        System.out.println();
+        // Задание3
+        int[] numberOne = {1, 2, 3};
+        for (int i = numberOne.length - 1; i >= 0; i--) {
+            System.out.print(numberOne[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        double[] someNumberOne = {1.57, 7.654, 9.986};
+        for (int j = someNumberOne.length-1 ; j >= 0; j--) {
+            System.out.print(someNumberOne[j]);
+            if (j != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        int[] fruitBoxOne = {4, 9, 15};
+        for (int k = fruitBoxOne.length - 1; k >= 0; k--) {
+            System.out.print(fruitBoxOne[k]);
+            if (k != 0) {
+                System.out.print(",");
+            }
+
+        }
+        System.out.println();
     }
 }

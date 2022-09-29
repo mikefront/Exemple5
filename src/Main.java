@@ -74,5 +74,16 @@ public class Main {
 
         }
         System.out.println();
+        // Задание4
+        int[] num = {1, 2, 3};
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] % 2 == 1) {
+                num[i]++;
+            }
+            System.out.print(num[i]);
+            if (i != num.length - 1) {
+                System.out.print(",");
+            }
+        }
     }
 }
